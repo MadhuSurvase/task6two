@@ -24,7 +24,7 @@ class CalculatorScreen extends StatelessWidget {
           children: [
             TextField(
               keyboardType: TextInputType.number,
-              decoration: InputDecoration(labelText: 'Enter first number'),
+              decoration: InputDecoration(labelText: 'Enter first number!'),
               onChanged: (value) {
                 controller.firstNumber.value = int.tryParse(value) ?? 0;
               },
